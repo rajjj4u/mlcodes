@@ -1,6 +1,6 @@
 import pandas as pd
 
-pd.read_csv("data.csv")
-
+data = pd.read_csv("challenge_dataset.txt", delimiter=",")
+print(data.head(5))
 
 
